@@ -1,0 +1,10 @@
+# Configure pytest NOT to display plugin deprication warnings 
+# as fixing these is beyond out control/responsibility 
+[pytest]
+filterwarnings = ignore::DeprecationWarning 
+
+[pytest-watch]
+testron = True 
+clear = True 
+quist = True 
+nobeep = True 
